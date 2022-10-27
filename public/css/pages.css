@@ -1,0 +1,640 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    box-shadow: 0px 3px 18px #00000010;
+}
+button:focus,
+button:hover,
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover{
+    outline: none !important;
+    box-shadow: none !important;
+}
+nav .navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+.sidebar-novedades ul{
+    padding: 0;
+    list-style: none;
+}
+.sidebar-novedades ul li{
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+nav.navbar-light .navbar-nav .nav-link.active{
+    font-weight: 700;
+}
+.descripcion-novedad ul{
+    list-style: none;
+}
+.descripcion-novedad ul li{
+    position: relative;
+}
+.descripcion-novedad ul li:before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #3366FB;
+    border-radius: 100%;
+    left: -20px;
+    top: 8px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+/**
+*    peso de letra
+*/
+.fw-600{
+    font-weight: 600;
+}
+/**
+Tamaños de letra
+*/
+.font-size-78{
+    font-size: 78px;
+}
+.font-size-62{
+    font-size: 62px;
+}
+.font-size-60{
+    font-size: 60px;
+}
+.font-size-50{
+    font-size: 50px;
+}
+.font-size-48{
+    font-size: 48px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+.font-size-38{
+    font-size: 38px;
+}
+.font-size-36{
+    font-size: 36px;
+}
+.font-size-34{
+    font-size: 34px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.font-size-28{
+    font-size: 28px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-23{
+    font-size: 23px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.font-size-21{
+    font-size: 21px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-19{
+    font-size: 19px;
+}
+.font-size-18{
+    font-size: 18px !important;
+}
+.font-size-17{
+    font-size: 17px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-15{
+    font-size: 15px !important;
+}
+.font-size-14{
+    font-size: 14px;
+}
+
+.font-size-13{
+    font-size: 13px !important;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-11{
+    font-size: 11px;
+}
+
+.header a{
+    text-decoration: none;
+}
+.header a:hover,
+.header a:focus
+.header a:active{
+    color: white;
+}
+th{
+    border: none;
+}
+.text-light {
+    color: #f9f9f9a1 !important;
+}
+.text-blue-2{
+    color: #2E3191 !important;
+}
+.text-blue-1{
+    color: #168FC8 !important;
+}
+.text-dark{
+    color: #333333 !important;
+}
+.bg-blue-1{
+    background-color: #3366FB;
+}
+.bg-blue-2{
+    background-color: #2E3191;
+}
+.bg-secundary{
+    background-color: #168FC8 !important;
+}
+.bg-footer{
+    background-color: #0C3D6D !important;
+}
+.bg-gray{
+    background-color: #575756;
+}
+input::placeholder,
+input,
+textarea{
+    font-size: 16px;
+    color: #1D1D1A;
+}
+.underline:hover{
+    text-decoration: underline !important;
+}
+.newsletter .form-control:focus,
+.newsletter .form-control:active
+.newsletter .form-control:hover{
+    box-shadow: none;
+    border-color: none;
+}
+
+.cd-none{
+    display: none;
+}
+.cd-none a:hover{
+    font-weight: bold;
+}
+
+.ul-style ul {
+    list-style: none; /* Remove default bullets */
+}
+.ul-style ul li::before{
+    content: "\2022";
+    color: #168FC8;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -1em;
+    font-size: 25px;
+    width: 1rem;
+    position: relative;
+    top: 4px;
+    height: 0;
+}
+.card-new{
+    border: 1px solid #D8D8D8 !important;
+}
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.card-producto:hover .mas{
+    display: flex;
+    color: white;
+}
+
+
+.mas {
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+    background-color: #2e319194;
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+.breadcrumb{
+    margin-bottom: 0px !important;
+}
+.contenedor-breadcrumb{
+    background-color: #f2f2f2;
+}
+aside li.active > a{
+    color: #2E3191 !important;
+}
+aside li.active ul li.activee a{
+    color: #2E3191 !important;
+}
+aside li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);  
+}
+aside li:last-child{
+    border: none;
+}
+
+.ficha-tecnica{
+    width: 180px;
+    border: 1px solid #168FC8 !important;
+    color: #168FC8 !important;
+}
+.rd-none{
+    display: none;
+}
+.color-producto{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+td{
+    vertical-align: middle;
+}
+
+.contenedor-color{
+    width: 100%;
+}
+.contenido-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;   
+}
+.eliminar-item-presupuesto{
+    padding: 0px 5px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border-radius: 100%;
+    font-size: 10px;    
+}
+.hero{
+    height: 70vh; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-position: center;
+}
+
+#sliderHero .carousel-indicators{
+    bottom: 70px;
+}
+#sliderClient .carousel-indicators{
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#sliderClient .carousel-indicators [data-bs-target]{
+    background-color: gray;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-color: white;
+    border-radius: 2px;
+}
+
+.redes-sociales a:hover {
+    color:#0d6efd;
+}
+
+
+
+.card-service:hover h5{
+    color: #0C3D6D !important;
+}
+.card-service:hover a{
+    background-color: #0C3D6D !important;
+}
+.card-producto img{
+    min-height: 260px;
+    max-height: 260px;
+    object-fit: cover;
+}
+.card-producto .border{
+    border: 2px solid #D8D8D8;
+}
+@media (min-width: 50px){
+    .categoria-producto{
+        bottom: 0; 
+    }
+    .position-sm-static{
+        position: static;
+    }
+    .contenedor-color{
+        width: 100%;
+        height: 94px;
+    }
+
+    #hilos-libertad h5{
+        font-size: 1.25rem;
+    }
+    #sliderHeroEmpresa .carousel-indicators {
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .col-service{
+        margin-bottom: 2rem;
+    }
+
+    .title-service{
+        margin-left: 10px;
+    }
+
+    .rposition{
+        position: static;
+    }
+}
+
+
+@media (min-width: 992px){
+    .contenedor-calculador{
+        margin-left: 15%;
+    }
+    .plogo-footer{
+        padding-left: 75px !important;
+    }
+    
+    .rposition{
+        position: absolute;
+    }
+    .position-md-absolute{
+        position: absolute;
+    }
+
+    #section2 .bg-light {
+        width: 287px; 
+        height: 290px;
+    }
+
+    .cd-block:hover .cd-none{
+        display: block;
+    }
+    .card-client{
+        width: 15%;
+    }
+    .col-service{
+        margin-bottom: 6rem;
+    }
+    .title-service{
+        margin-left: 110px;
+    }
+    nav.navbar-light .navbar-nav .nav-link{
+        font-size: 90%;
+    }
+    .categoria-producto .container{
+        max-width: 980px;
+        
+    }
+
+    .contenedor-color{
+        width: 18%;
+    }
+
+    nav.navbar-light .navbar-nav .nav-link.active::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -22px;
+        height: 2px;
+        background-color: #168FC8;
+        width: 60px;
+        margin: auto;
+    }
+
+    .cd-block:hover .cd-none{
+        display: block;
+    }
+
+    .col-service{
+        margin-bottom: 6rem;
+    }
+
+    .title-service{
+        margin-left: 110px;
+    }
+
+    nav.navbar-light .navbar-nav .nav-link{
+        font-size: 90%;
+    }
+
+    .categoria-producto .container{
+        max-width: 980px;
+        
+    }
+
+    .contenedor-color{
+        width: 18%;
+    }
+
+    nav.navbar-light .navbar-nav .nav-link.active::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -20px;
+        height: 2px;
+        background-color: #3366FB;
+    }
+}
+
+@media (min-width: 720px){
+    #accionamientos .card img{
+        max-height: 250px;
+        min-width: 250px;
+        object-fit: contain;
+    }
+
+    .w-33{
+        width: 33%;
+    }
+
+    #cotizadorOnline .medidas .form-group{
+        width: 30%;
+    }
+    
+    .categoria-producto{
+        bottom: 120px;
+    }
+    .image-card{
+        max-height: 250px;
+        min-height: 250px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    #sliderHero, #sliderHero .carousel-inner, #sliderHero .carousel-item{
+        max-height: 626px;
+        min-height: 626px;
+    }
+
+    #sliderEmpresa, #sliderEmpresa .carousel-inner, #sliderEmpresa .carousel-item{
+        max-height: 428px;
+        min-height: 428px;
+    }
+    #sliderEmpresa .carousel-caption{
+        top: 40%;
+    }
+    .img-client-carrusel{
+        min-width: 172px;
+        max-width: 172px;
+        min-height: 92px;
+        max-height: 92px;
+        object-fit: contain;
+    }
+
+    .contenedor-color{
+        width: 30%;
+    }
+
+    #hilos-libertad h5{
+        font-size: 30px;
+    }
+
+    #sliderHeroEmpresa .carousel-indicators{
+        bottom: 10px;
+    }
+    .w-md-48{
+        width: 48% !important;
+    }
+}
+
+
+@media (max-width: 992px){
+    .rbg-dark{
+        background-color: #212529bd !important
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color:white;
+    }
+    .font-size-50{
+        font-size: 25px;
+    }
+    .hero{
+        height: 50vh;
+    }
+}
+@media (max-width: 768px){
+    .font-size-48{
+        font-size: 28px;
+    }
+    .font-size-38{
+        font-size: 24px;
+    }
+    #sliderHero, #sliderHero .carousel-inner, #sliderHero .carousel-item{
+        max-height: 240px;
+        min-height: 240px;
+    }
+    .carousel-caption .w-50{
+        width: 90% !important;
+    }
+    form .w-75{
+        width: 100% !important;
+    }
+    .carousel-caption{
+        top: 5%;
+    }
+    .font-size-24{
+        font-size: 19px;
+    }
+    #heroProducto h2{
+        font-size: 19px;
+    }
+    .logo-header{
+        max-width: 150px;
+    }
+    .ancho-boton{
+        width: 100%;
+    }
+    #heroProducto p{
+        font-size: 15px;
+    }
+
+    #section2{
+        position: static !important;
+        margin-top: 30px;
+    }
+    
+    #section2 .bg-light{
+        width: 90% !important;
+        height: auto !important;
+        margin: auto;
+    }
+
+    #sliderHero .carousel-item{
+        height: 70vh !important;
+    }
+    #sliderEmpresa .carousel-item{
+        height: 240px !important;
+    }
+    #representadas img {
+        width: 45%;
+    }
+
+    .font-size-62{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 500px){
+    .logo-header{
+        max-width: 100px;
+    }
+    #cotizadorOnline .medidas .form-group{
+        width: 100%;
+    }
+
+    .font-size-40{
+        font-size: 25px;
+    }
+    .font-size-30{
+        font-size: 20px;
+    }
+    .font-size-23{
+        font-size: 19px;
+    }
+    .font-size-20{
+        font-size: 17px;
+    }
+    .font-size-16{
+        font-size: 15px;
+    }
+}
